@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // declaring a variable named "name" with a string literal of "Dane" as the value
-// using an if/else statement we check if "name" is equal to "Mary", if true will console out "Hi, Mary!"
+// using an if/else statement we check if "name" is of equal value and type to "Mary", if true will console out "Hi, Mary!"
 // since the condition is false, the else part of the statement executes a console out of "How do you do?"
 //
 
@@ -71,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+//declaring 3 variables. "isStudent" with a boolean value of true, "age" with a value of 34, and "zip" with a value of 55407
+//compound conditional statement checking that "isStudent" is equal to true and "zip" is greater than 80000 (since zip is not greater, the code will move on to the else if and not out anything via console)
+//else if checking "isStudent" is equal to true then console will out "Welcome to Prime"
+//else statement that will not execute
 
 //CODE
 /*
@@ -134,6 +134,8 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - Description states both colorOne & colorTwo will be assigned the value of purple, but the if statement will only change the value of colorOne not colorTwo.
 
 if (mix === true) {
   colorOne = 'purple';
