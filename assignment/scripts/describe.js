@@ -150,6 +150,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - the || operator should be changed to && operator, this statement will still console out "throw out the food" because either of the variables are true, when
+//they should both be required to be true
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,7 +164,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - age should be checked against minAge with less than operator if(age < minAge) 
 if(minAge <= age) {
   console.log('no entry');
 } else {
